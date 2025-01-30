@@ -1,0 +1,27 @@
+
+ Test Suite Results
+================
+Total Tests: 3
+Passed: 2
+Failed: 1
+
+Test Case: test_case_1.tcl
+Status: PASSED
+Output:
+Running Test Case 1
+Test Passed
+
+Test Case: test_case_2.tcl
+Status: FAILED
+Output:
+Running Test Case 2
+Test Failed
+child process exited abnormally
+
+Test Case: test_case_3.tcl
+Status: PASSED
+Output:
+Running Test Case 3
+Test Passed
+
+

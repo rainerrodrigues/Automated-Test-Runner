@@ -11,10 +11,10 @@ set log_file "test_runner.log"
 set report_file "test_report.txt"
 set email_notifications true
 set email_recipient "rainerrodrigues16@gmail.com"
-set smtp_server "smtp.example.com"
+set smtp_server "smtp.gmail.com"
 set smtp_port 587
-set smtp_username "your_email@example.com"
-set smtp_password "your_password"
+set smtp_username "rainerrodrigues16@gmail.com"
+set smtp_password "*******"
 
 # Procedure : log_message
 proc log_message {message} {
@@ -25,7 +25,7 @@ proc log_message {message} {
 
 proc append_to_file {file_path content} {
 	set fp [open $file_path "a"]
-	puts $fp $contnet
+	puts $fp $content
 	close $fp
 }
 
@@ -54,8 +54,9 @@ proc run_all_tests {} {
 	close $fp
 
 	foreach test_case $::test_cases {
-		set [list status output] [run_test_case $test_case]
-		if ($status eq "PASSED") {
+		lassign [run_test_case $test_case] status output
+		# set [list status output] [run_test_case $test_case]
+		if {$status eq "PASSED"} {
 			incr passed
 		} else {
 			incr failed
@@ -73,7 +74,7 @@ proc run_all_tests {} {
 	}
 	append_to_file $::report_file $report
 
-	log_messsage "Test suite completed. Report generated at $::report_file."
+	log_message "Test suite completed. Report generated at $::report_file."
 	return $report
 }
 
@@ -81,22 +82,38 @@ proc run_all_tests {} {
 proc send_email {subject body} {
 	package require smtp
 	package require mime
+	package require tls ;#Ensure TLS support
+	
+	# Initialize the email with the body as a string
+	set token [mime::initialize -string $body]
 
-	set messsage [mime::initialize -headers {
-		Subject $subject
-		From $::smtp_username
-		To $::email_recipient
-	}]
-	mime::setmessage $message $body
+	# Set the email headers
+	mime::setheader $token Subject $subject
+	mime::setheader $token From $::smtp_username
+	mime::setheader $token To $::email_recipient
+	# set messsage [mime::initialize -headers {
+	#	Subject $subject
+	#	From $::smtp_username
+	#	To $::email_recipient }	]
+	# mime::setmessage $message $body
+	
+	# Send the email
+	if {[catch {
+		smtp::sendmessage $token \
+			-recipients $::email_recipient \
+			-servers $::smtp_server \
+			-username $::smtp_username \
+			-password $::smtp_password \
+			-usetls 1
+	} err]} {
+		puts "Failed to send email: $err"
+	} else {
+		puts "Email sent successfully!"
+	}
+	# Cleanup MIME token
+	mime::finalize $token
 
-	smtp::sendmessage $message \
-		-servers $::smtp_server \
-		-port $::smtp_username \
-		-username $::smtp_username \
-		-password $::smtp_password
-	mime::finalize $message
-
-	log_message "Email sent to $::email_recipient."
+	#log_message "Email sent to $::email_recipient."
 }
 
 proc main {} {

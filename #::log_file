@@ -1,0 +1,268 @@
+2025-01-29 23:15:16 - Automated Test Runner started.
+
+2025-01-29 23:15:16 - Starting test suite execution ...
+
+2025-01-29 23:15:16 - Starting test case: test_case_1.tcl
+
+2025-01-29 23:15:16 - Test case test_case_1.tcl passed.
+
+2025-01-29 23:19:18 - Automated Test Runner started.
+
+2025-01-29 23:19:18 - Starting test suite execution ...
+
+2025-01-29 23:19:18 - Starting test case: test_case_1.tcl
+
+2025-01-29 23:19:18 - Test case test_case_1.tcl passed.
+
+2025-01-29 23:20:55 - Automated Test Runner started.
+
+2025-01-29 23:20:55 - Starting test suite execution ...
+
+2025-01-29 23:20:55 - Starting test case: test_case_1.tcl
+
+2025-01-29 23:20:55 - Test case test_case_1.tcl passed.
+
+2025-01-29 23:25:16 - Automated Test Runner started.
+
+2025-01-29 23:25:16 - Starting test suite execution ...
+
+2025-01-29 23:25:16 - Starting test case: test_case_1.tcl
+
+2025-01-29 23:25:16 - Test case test_case_1.tcl passed.
+
+2025-01-29 23:25:16 - Starting test case: test_case_2.tcl
+
+2025-01-29 23:25:16 - Test case test_case_2.tcl failed: Running Test Case 2
+Test Failed
+child process exited abnormally
+
+2025-01-29 23:25:16 - Starting test case: test_case_3.tcl
+
+2025-01-29 23:25:16 - Test case test_case_3.tcl passed.
+
+2025-01-29 23:26:54 - Automated Test Runner started.
+
+2025-01-29 23:26:54 - Starting test suite execution ...
+
+2025-01-29 23:26:54 - Starting test case: test_case_1.tcl
+
+2025-01-29 23:26:54 - Test case test_case_1.tcl passed.
+
+2025-01-29 23:26:54 - Starting test case: test_case_2.tcl
+
+2025-01-29 23:26:54 - Test case test_case_2.tcl failed: Running Test Case 2
+Test Failed
+child process exited abnormally
+
+2025-01-29 23:26:54 - Starting test case: test_case_3.tcl
+
+2025-01-29 23:26:54 - Test case test_case_3.tcl passed.
+
+2025-01-29 23:26:54 - Test suite completed. Report generated at test_report.txt.
+
+2025-01-29 23:26:54 - Sending email notification...
+
+2025-01-29 23:28:26 - Automated Test Runner started.
+
+2025-01-29 23:28:26 - Starting test suite execution ...
+
+2025-01-29 23:28:26 - Starting test case: test_case_1.tcl
+
+2025-01-29 23:28:26 - Test case test_case_1.tcl passed.
+
+2025-01-29 23:28:26 - Starting test case: test_case_2.tcl
+
+2025-01-29 23:28:26 - Test case test_case_2.tcl failed: Running Test Case 2
+Test Failed
+child process exited abnormally
+
+2025-01-29 23:28:26 - Starting test case: test_case_3.tcl
+
+2025-01-29 23:28:26 - Test case test_case_3.tcl passed.
+
+2025-01-29 23:28:26 - Test suite completed. Report generated at test_report.txt.
+
+2025-01-29 23:28:26 - Sending email notification...
+
+2025-01-29 23:34:20 - Automated Test Runner started.
+
+2025-01-29 23:34:20 - Starting test suite execution ...
+
+2025-01-29 23:34:20 - Starting test case: test_case_1.tcl
+
+2025-01-29 23:34:20 - Test case test_case_1.tcl passed.
+
+2025-01-29 23:34:20 - Starting test case: test_case_2.tcl
+
+2025-01-29 23:34:20 - Test case test_case_2.tcl failed: Running Test Case 2
+Test Failed
+child process exited abnormally
+
+2025-01-29 23:34:20 - Starting test case: test_case_3.tcl
+
+2025-01-29 23:34:20 - Test case test_case_3.tcl passed.
+
+2025-01-29 23:34:20 - Test suite completed. Report generated at test_report.txt.
+
+2025-01-29 23:34:20 - Sending email notification...
+
+2025-01-29 23:41:28 - Automated Test Runner started.
+
+2025-01-29 23:41:28 - Starting test suite execution ...
+
+2025-01-29 23:41:28 - Starting test case: test_case_1.tcl
+
+2025-01-29 23:41:28 - Test case test_case_1.tcl passed.
+
+2025-01-29 23:41:28 - Starting test case: test_case_2.tcl
+
+2025-01-29 23:41:28 - Test case test_case_2.tcl failed: Running Test Case 2
+Test Failed
+child process exited abnormally
+
+2025-01-29 23:41:28 - Starting test case: test_case_3.tcl
+
+2025-01-29 23:41:28 - Test case test_case_3.tcl passed.
+
+2025-01-29 23:41:28 - Test suite completed. Report generated at test_report.txt.
+
+2025-01-29 23:41:28 - Sending email notification...
+
+2025-01-29 23:44:09 - Automated Test Runner started.
+
+2025-01-29 23:44:09 - Starting test suite execution ...
+
+2025-01-29 23:44:09 - Starting test case: test_case_1.tcl
+
+2025-01-29 23:44:09 - Test case test_case_1.tcl passed.
+
+2025-01-29 23:44:09 - Starting test case: test_case_2.tcl
+
+2025-01-29 23:44:09 - Test case test_case_2.tcl failed: Running Test Case 2
+Test Failed
+child process exited abnormally
+
+2025-01-29 23:44:09 - Starting test case: test_case_3.tcl
+
+2025-01-29 23:44:09 - Test case test_case_3.tcl passed.
+
+2025-01-29 23:44:09 - Test suite completed. Report generated at test_report.txt.
+
+2025-01-29 23:44:09 - Sending email notification...
+
+2025-01-29 23:45:41 - Automated Test Runner started.
+
+2025-01-29 23:45:41 - Starting test suite execution ...
+
+2025-01-29 23:45:41 - Starting test case: test_case_1.tcl
+
+2025-01-29 23:45:41 - Test case test_case_1.tcl passed.
+
+2025-01-29 23:45:41 - Starting test case: test_case_2.tcl
+
+2025-01-29 23:45:41 - Test case test_case_2.tcl failed: Running Test Case 2
+Test Failed
+child process exited abnormally
+
+2025-01-29 23:45:41 - Starting test case: test_case_3.tcl
+
+2025-01-29 23:45:41 - Test case test_case_3.tcl passed.
+
+2025-01-29 23:45:41 - Test suite completed. Report generated at test_report.txt.
+
+2025-01-29 23:45:41 - Sending email notification...
+
+2025-01-29 23:48:15 - Automated Test Runner started.
+
+2025-01-29 23:48:15 - Starting test suite execution ...
+
+2025-01-29 23:48:15 - Starting test case: test_case_1.tcl
+
+2025-01-29 23:48:15 - Test case test_case_1.tcl passed.
+
+2025-01-29 23:48:15 - Starting test case: test_case_2.tcl
+
+2025-01-29 23:48:15 - Test case test_case_2.tcl failed: Running Test Case 2
+Test Failed
+child process exited abnormally
+
+2025-01-29 23:48:15 - Starting test case: test_case_3.tcl
+
+2025-01-29 23:48:15 - Test case test_case_3.tcl passed.
+
+2025-01-29 23:48:15 - Test suite completed. Report generated at test_report.txt.
+
+2025-01-29 23:48:15 - Sending email notification...
+
+2025-01-29 23:53:01 - Automated Test Runner started.
+
+2025-01-29 23:53:01 - Starting test suite execution ...
+
+2025-01-29 23:53:01 - Starting test case: test_case_1.tcl
+
+2025-01-29 23:53:01 - Test case test_case_1.tcl passed.
+
+2025-01-29 23:53:01 - Starting test case: test_case_2.tcl
+
+2025-01-29 23:53:01 - Test case test_case_2.tcl failed: Running Test Case 2
+Test Failed
+child process exited abnormally
+
+2025-01-29 23:53:01 - Starting test case: test_case_3.tcl
+
+2025-01-29 23:53:01 - Test case test_case_3.tcl passed.
+
+2025-01-29 23:53:01 - Test suite completed. Report generated at test_report.txt.
+
+2025-01-29 23:53:01 - Sending email notification...
+
+2025-01-29 23:59:07 - Automated Test Runner started.
+
+2025-01-29 23:59:07 - Starting test suite execution ...
+
+2025-01-29 23:59:07 - Starting test case: test_case_1.tcl
+
+2025-01-29 23:59:07 - Test case test_case_1.tcl passed.
+
+2025-01-29 23:59:07 - Starting test case: test_case_2.tcl
+
+2025-01-29 23:59:07 - Test case test_case_2.tcl failed: Running Test Case 2
+Test Failed
+child process exited abnormally
+
+2025-01-29 23:59:07 - Starting test case: test_case_3.tcl
+
+2025-01-29 23:59:07 - Test case test_case_3.tcl passed.
+
+2025-01-29 23:59:07 - Test suite completed. Report generated at test_report.txt.
+
+2025-01-29 23:59:07 - Sending email notification...
+
+2025-01-29 23:59:07 - Email sent to rainerrodrigues16@gmail.com.
+
+2025-01-29 23:59:07 - Automated Test Runner completed.
+
+2025-01-30 00:01:23 - Automated Test Runner started.
+
+2025-01-30 00:01:23 - Starting test suite execution ...
+
+2025-01-30 00:01:23 - Starting test case: test_case_1.tcl
+
+2025-01-30 00:01:23 - Test case test_case_1.tcl passed.
+
+2025-01-30 00:01:23 - Starting test case: test_case_2.tcl
+
+2025-01-30 00:01:23 - Test case test_case_2.tcl failed: Running Test Case 2
+Test Failed
+child process exited abnormally
+
+2025-01-30 00:01:23 - Starting test case: test_case_3.tcl
+
+2025-01-30 00:01:23 - Test case test_case_3.tcl passed.
+
+2025-01-30 00:01:23 - Test suite completed. Report generated at test_report.txt.
+
+2025-01-30 00:01:23 - Sending email notification...
+
+2025-01-30 00:01:23 - Automated Test Runner completed.
+
